@@ -1,0 +1,142 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  header:
+    title: Lynda N. Castro Cordero
+    text: >
+        2nd Assistant Director
+        
+        Director and Writer
+        
+  about:
+    title: "About me"
+    text: >
+        
+        Lynda N. Castro Cordero is a filmmaker who aspires to work as a
+        director and scriptwriter. She is from Aguada, Puerto Rico. In 2021
+        she moved to Orlando where she started to work and collaborate.
+        
+        She will receive her Master of Fine Arts in Film Production from Full
+        Sail University and her Bachelor of Arts and Science in Comparative
+        Literature from UPR Mayagüez. Throughout her time at Full Sail, she
+        has worked over 10 projects from features, documentaries, shorts,
+        and commercials.
+        
+        She is currently in post-production for her short film expected to
+        release late 2022.
+    body : ""
+    section: about
+
+  projects:
+    title: "Projects"
+    text: "Short films"
+    section: projects
+    closebutton: ""
+
+  instagram:
+    title: "Instagram"
+    text: ""
+    section: instagram
+
+  contact:
+    title: "Contact"
+    section: contact
+    name: "Name*"
+    name-validation: "Please enter your name."
+    email: "Email*"
+    email-validation: "Please enter your email address."
+    phone: "Phone Number"
+    phone-validation: "Please enter your phone number."
+    message: "Message*"
+    message-validation: "Please enter a message."
+    subject: "Contact Form Submission"
+    submit: "Send Message"
+
+  blog:
+    title: "Blog"
+    text: ""
+    section: blog
+
+  footer:
+    social:
+      - url: https://twitter.com/Dazedinamaze
+        icon: "fab fa-twitter"
+      - url: https://www.facebook.com/Dazedinamaze
+        icon: "fab fa-facebook-f"
+      - url: https://www.linkedin.com/in/lyndacastro/
+        icon: "fab fa-linkedin-in"
+      - url: https://www.instagram.com/lc_pov/
+        icon: "fab fa-instagram"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
+# Spanish
+# -------
+es: &DEFAULT_ES
+  header:
+    title: Lynda N. Castro Cordero
+    text: Filmmaker
+
+  about:
+    title: "Acerca de mi"
+    text: ""
+    section: sobre mi
+
+  projects:
+    title: "Proyectos"
+    text: ""
+    section: proyectos
+
+  instagram:
+    title: "Instagram"
+    text: ""
+    section: instagram
+
+  contact:
+    title: "Contacto"
+    section: contact
+    name: "Name*"
+    name-validation: "Ingrese su nombre completo por favor"
+    email: "Email*"
+    email-validation: "Ingrese su email por favor"
+    phone: "Phone Number"
+    phone-validation: "Ingrese su telefono por favor"
+    message: "Message*"
+    message-validation: "Mensaje"
+    subject: "Contact Form Submission"
+    submit: "Send Message"
+
+  blog:
+    title: "Blog"
+    text: ""
+    section: blog
+
+  footer:
+    social:
+      - url: https://twitter.com/Dazedinamaze
+        icon: "fab fa-twitter"
+      - url: https://www.facebook.com/Dazedinamaze
+        icon: "fab fa-facebook-f"
+      - url: https://www.linkedin.com/in/lyndacastro/
+        icon: "fab fa-linkedin-in"
+      - url: https://www.instagram.com/lc_pov/
+        icon: "fab fa-instagram"
+es-ES:
+  <<: *DEFAULT_ES
+es-CO:
+  <<: *DEFAULT_ES
